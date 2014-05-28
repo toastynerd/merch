@@ -1,7 +1,7 @@
 var pl = require('pluralize');
 var bodyParser = require('body-parser');
 
-module.exports.restify = function(app, Model, baseRoute) {
+module.exports.merch = function(app, Model, baseRoute) {
     baseRoute = baseRoute || '';
     var modelName = pl.plural(Model.name);
     app.use(bodyParser.json());
