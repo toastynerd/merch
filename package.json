@@ -1,0 +1,9 @@
+{
+    "name" : "mongoose-crud-resource",
+    "description" : "simplify express/mongoose crud",
+    "version" : "0.1.0",
+    "dependencies" : {
+	"pluralize": "^0.0.10",
+	"body-parser" : "^1.0"
+    }
+}
